@@ -1,4 +1,4 @@
-# LaTeX-Compile-Script-for-Unicode
+# LaTeX コンパイルスクリプト (Unicode 版)
 
 Unicode (UTF-8) 版 LaTeX コンパイルスクリプト。
 
