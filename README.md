@@ -19,7 +19,7 @@ upLaTeX でちょっと遊んでみたくなったので作成。
 * コンパイル用スクリプト
   - 文字コードの変更 (Mac OS X / Linux)
   - LaTeX コマンドの変更 (platex -> uplatex)
-  - dvipdfmx の kanji オプションの引数 (sjis -> utf-8)
+  - dvipdfmx の kanji オプションの引数の変更 (sjis -> utf-8)
 * フォントマップファイル
   - 仮想フォント名の変更 (pTeX のものから upTeX 向けに)
 * Windows 用文字置換スクリプト (replace.vbs)
