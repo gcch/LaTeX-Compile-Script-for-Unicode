@@ -1,0 +1,63 @@
+%
+% fontmap for dvipdfmx (MS-Mincho + MS-Gothic)
+%
+
+% TFM	CID Map	Font File
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% for upTeX
+urml	H	msmincho
+urmlv	V	msmincho
+ugbm	H	msgothic
+ugbmv	V	msgothic
+
+uprml-h		UniJIS-UTF16-H	msmincho
+uprml-v		UniJIS-UTF16-V	msmincho
+upgbm-h		UniJIS-UTF16-H	msgothic
+upgbm-v		UniJIS-UTF16-V	msgothic
+
+uprml-hq	UniJIS-UCS2-H	msmincho
+upgbm-hq	UniJIS-UCS2-H	msgothic
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Mincho
+hmr		H		msmincho
+hmrv		V		msmincho
+unijmin-h	UniJIS-UTF16-H	msmincho
+unijmin-v	UniJIS-UTF16-V	msmincho
+cidmin-h	Identity-H	msmincho
+cidmin-v	Identity-V	msmincho
+
+% Gothic
+hkb		H		msgothic
+hkbv		V		msgothic
+unijgoth-h	UniJIS-UTF16-H	msgothic
+unijgoth-v	UniJIS-UTF16-V	msgothic
+cidgoth-h	Identity-H	msgothic
+cidgoth-v	Identity-V	msgothic
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%
+% for OTF Package
+%
+
+% Mincho
+hminr-h		H		msmincho
+hminr-v		V		msmincho
+otf-ujmr-h	UniJIS-UTF16-H	msmincho
+otf-ujmr-v	UniJIS-UTF16-V	msmincho
+otf-cjmr-h	Identity-H	msmincho
+otf-cjmr-v	Identity-V	msmincho
+
+% Gothic
+hgothr-h	H		msgothic
+hgothr-v	V		msgothic
+otf-ujgr-h	UniJIS-UTF16-H	msgothic
+otf-ujgr-v	UniJIS-UTF16-V	msgothic
+otf-cjgr-h	Identity-H	msgothic
+otf-cjgr-v	Identity-V	msgothic
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
