@@ -26,7 +26,7 @@ SET FMAP=font_ms.map
 :: TeX -> DVI
 %TEX2DVI% -kanji=%CCODE% "%FNAME%.tex"
 %TEX2DVI% -kanji=%CCODE% "%FNAME%.tex"
-%TEX2DVI% -kanji=%CCODE% "%FNAME%.tex"
+::%TEX2DVI% -kanji=%CCODE% "%FNAME%.tex"
 
 :: Adobe Reader
 TASKKILL /IM AcroRD32.exe /F /T
@@ -40,10 +40,9 @@ TASKKILL /IM Acrobat.exe /F /T
 :: pause if error occured
 IF NOT "%ERRORLEVEL%" == "0" (
 	PAUSE > NUL
-	EXIT /B
 )
 
 :: delete temp files
 RM "%FNAME%.aux" "%FNAME%.dvi" "%FNAME%.out" "%FNAME%.log" "%FNAME%.toc" "%FNAME%.lof" "%FNAME%.lot"
 
-exit
+EXIT /B
