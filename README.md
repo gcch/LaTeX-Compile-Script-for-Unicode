@@ -5,6 +5,8 @@ Unicode (UTF-8) 版 LaTeX コンパイルスクリプト。
 
 # Overview
 
+upLaTeX でちょっと遊んでみたくなったので作成。
+
 仕様の詳細は、Shift-JIS 版である「[LaTeX コンパイルスクリプト](https://github.com/gcch/LaTeX-Compile-Script)」のページを参照。
 
 ブランチで分けても良かった気がするけど、まぁ……ね。
