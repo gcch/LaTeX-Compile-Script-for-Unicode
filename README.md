@@ -28,7 +28,7 @@ upLaTeX でちょっと遊んでみたくなったので作成。
 
 ## License
 
-This script is released under the MIT license. See the [LICENSE](LICENSE) file.
+This is released under the MIT license. See the [LICENSE](LICENSE) file.
 
 
 ## Author
